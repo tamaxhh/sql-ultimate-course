@@ -64,8 +64,7 @@ SELECT
     o.sales
 FROM customers AS c 
 RIGHT JOIN orders AS o 
-ON c.id = o.customer_id
-
+ON c.id = o.custo
 -- Alternative to RIGHT JOIN using LEFT JOIN
 /* Get all customers along with their orders, 
    including orders without matching customers */
